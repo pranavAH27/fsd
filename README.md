@@ -1,3 +1,4 @@
+
 # SurplusReach
 
 SurplusReach is a full-stack platform for coordinating surplus food donations, NGO pickups, volunteers, and food-safety guidance.
@@ -62,3 +63,5 @@ Copy `backend/.env.example` and `frontend/.env.example` to `.env` in each direct
 ## Production notes
 
 This is a deployable foundation, not a substitute for operational security review. Use HTTPS, a managed MySQL service, secret management, backups, rate limiting, monitoring and email verification/password reset before public launch. Set `GOOGLE_MAPS_API_KEY` to enable maps and `GROK_API_KEY` to enable the assistant. Listing creation, claiming, volunteer assignment, OTP handover and drop-off are enforced by role-protected backend endpoints.
+
+# fsd
